@@ -520,15 +520,16 @@ ul {
 
 .device-card__stack {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: 1fr;
 }
 
 .device-card__stack img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: contain;
   border-radius: 20px;
+  background: linear-gradient(180deg, rgba(22, 36, 52, 0.92), rgba(10, 21, 34, 0.92));
 }
 
 .device-card p {
@@ -1434,12 +1435,9 @@ ul {
     padding: 22px;
   }
 
-  .device-card__stack {
-    grid-template-columns: 1fr;
-  }
-
   .device-card__stack img {
-    height: 240px;
+    width: min(100%, 260px);
+    margin-inline: auto;
   }
 }
 
