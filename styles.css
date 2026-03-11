@@ -376,13 +376,13 @@ ul {
 }
 
 .stat-card {
-  min-height: 154px;
-  padding: 20px 18px 18px;
+  min-height: 138px;
+  padding: 18px 16px;
   display: grid;
-  grid-template-rows: minmax(56px, auto) 1fr;
+  grid-template-rows: minmax(48px, auto) 1fr;
   align-content: start;
   justify-items: center;
-  gap: 10px;
+  gap: 8px;
   border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -395,7 +395,7 @@ ul {
   align-items: center;
   justify-content: center;
   font-family: "Bahnschrift", "Arial Narrow", sans-serif;
-  font-size: 1.65rem;
+  font-size: 1.45rem;
   line-height: 1.05;
   text-wrap: balance;
 }
@@ -403,7 +403,7 @@ ul {
 .stat-card span {
   display: block;
   color: rgba(245, 247, 251, 0.72);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   line-height: 1.45;
 }
 
@@ -1205,6 +1205,21 @@ ul {
     max-width: 100%;
     font-size: 1rem;
   }
+  
+  .stat-card {
+    min-height: auto;
+    padding: 16px;
+    grid-template-rows: auto;
+    gap: 6px;
+  }
+
+  .stat-card strong {
+    font-size: 1.3rem;
+  }
+
+  .stat-card span {
+    font-size: 0.84rem;
+  }
 
   .scene-main {
     min-height: 320px;
@@ -1328,6 +1343,19 @@ ul {
 
   .hero-lead {
     font-size: 0.94rem;
+  }
+
+  .stat-card {
+    padding: 14px;
+    gap: 4px;
+  }
+
+  .stat-card strong {
+    font-size: 1.18rem;
+  }
+
+  .stat-card span {
+    font-size: 0.8rem;
   }
 
   .section-heading h2 {
