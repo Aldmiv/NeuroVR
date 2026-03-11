@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="НейроВР — программно-аппаратный комплекс на стыке ЭЭГ-мониторинга и виртуальной реальности."
+    />
+    <meta name="theme-color" content="#0a1626" />
+    <title>НейроВР</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="site-header__bar">
+          <a class="brand" href="#top" aria-label="НейроВР">
+            <span class="brand-mark" aria-hidden="true">
+              <img src="assets/brand/neurovr-logo-badge.png" alt="" />
+            </span>
+            <span class="brand-copy">Нейротехнологии для VR</span>
+          </a>
+
+          <nav class="site-nav" aria-label="Навигация по разделам">
+            <a href="#about">О проекте</a>
+            <a href="#audience">Для кого</a>
+            <a href="#system">Комплекс</a>
+            <a href="#gallery">Сцены</a>
+            <a href="#partners">Партнеры</a>
+            <a href="#contact">Контакты</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="section hero">
+          <div class="hero-copy" data-reveal="left">
+            <p class="eyebrow">Нейротехнологии + виртуальная реальность</p>
+            <h1>
+              НейроВР
+              <span>чувствует пользователя</span>
+            </h1>
+            <p class="hero-lead">
+              Программно-аппаратный комплекс синхронизирует ЭЭГ-мониторинг с VR-сценарием,
+              регистрирует нейрофизиологические паттерны в реальном времени и помогает
+              адаптировать цифровую среду под состояние человека.
+            </p>
+
+            <div class="cta-row">
+              <a class="button button--primary" href="#contact">Связаться с командой</a>
+            </div>
+
+            <div class="stat-grid">
+              <article class="stat-card" data-reveal>
+                <strong>80 г</strong>
+                <span>вес устройства</span>
+              </article>
+              <article class="stat-card" data-reveal>
+                <strong>&lt; 3 мин</strong>
+                <span>быстрая калибровка</span>
+              </article>
+              <article class="stat-card" data-reveal>
+                <strong>до 5 ч</strong>
+                <span>автономная работа</span>
+              </article>
+              <article class="stat-card" data-reveal>
+                <strong>Python + VR</strong>
+                <span>интеграция с Unreal и Matlab</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-stage" data-reveal="right">
+            <article class="visual-panel scene-main">
+              <img
+                src="assets/docx-media/image3.png"
+                alt="Прибрежная виртуальная сцена проекта"
+              />
+              <div class="visual-copy">
+                <span class="visual-label">Иммерсивная сцена</span>
+                <h2>VR-среда, которая реагирует на когнитивное состояние</h2>
+              </div>
+            </article>
+
+            <article class="visual-panel prototype-card">
+              <span class="visual-label visual-label--dark">Разработанный макет</span>
+              <img
+                src="assets/docx-media/image8.png"
+                alt="Макет VR-гарнитуры с интегрированным нейроинтерфейсом"
+              />
+            </article>
+
+            <article class="visual-panel device-card">
+              <div class="device-card__stack">
+                <img
+                  src="assets/docx-media/image9.jpeg"
+                  alt="Мобильное устройство для регистрации электрической активности мозга"
+                />
+                <img
+                  src="assets/docx-media/image10.jpg"
+                  alt="Лабораторный образец интерфейса НейроВР"
+                />
+              </div>
+              <p>Лабораторный образец аппаратной части нейроинтерфейса</p>
+            </article>
+
+            <a
+              class="grant-pill"
+              href="https://fasie.ru/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="grant-pill__copy">
+                <small>Проект поддержан</small>
+                <strong>Фондом содействия инновациям</strong>
+              </span>
+              <img
+                src="assets/docx-media/image2.png"
+                alt="Логотип Фонда содействия инновациям"
+              />
+            </a>
+          </div>
+        </section>
+
+        <section id="about" class="section section-light">
+          <div class="section-heading" data-reveal>
+            <p class="section-tag">О проекте</p>
+            <h2>От лабораторной идеи к прикладной платформе</h2>
+            <p>
+              НейроВР стирает грань между человеком и цифровым пространством: не просто
+              погружает в виртуальную реальность, а помогает ей чувствовать, понимать и
+              учитывать индивидуальные особенности пользователя.
+            </p>
+          </div>
+
+          <div class="story-grid">
+            <article class="story-card" data-reveal="left">
+              <p class="story-card__lead">
+                Комплекс объединяет интерфейс «мозг-компьютер», VR-устройства и аналитический
+                модуль, который превращает нейросигналы в понятные количественные показатели.
+              </p>
+              <p>
+                Это позволяет оценивать, как виртуальная среда влияет на пользователя: от
+                положительных эффектов обучения и реабилитации до ранней индикации стресса,
+                переутомления и повышенной возбудимости.
+              </p>
+              <ul class="accent-list">
+                <li>адаптация сценариев в реальном времени по ЭЭГ-паттернам</li>
+                <li>масштабируемое решение для медицины, образования и игровой индустрии</li>
+                <li>переход нейротехнологий из исследований в понятный продукт</li>
+              </ul>
+            </article>
+
+            <article class="story-visual" data-reveal="right">
+              <img
+                src="assets/docx-media/image7.png"
+                alt="Демонстрационная сцена проекта НейроВР"
+              />
+              <div class="story-visual__note">
+                <span>Демонстрация сцены</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="audience" class="section section-warm">
+          <div class="section-heading section-heading--dark" data-reveal>
+            <p class="section-tag section-tag--dark">Преимущества</p>
+            <h2>НейроВР закрывает задачи трех ключевых аудиторий</h2>
+            <p>
+              Система создана сразу для нескольких сценариев: она одинаково сильна в
+              пользовательском опыте, исследовательской аналитике и медицинской практике.
+            </p>
+          </div>
+
+          <div class="audience-grid">
+            <article class="audience-card" data-reveal>
+              <div class="icon-shell">
+                <img
+                  src="assets/docx-media/image4.png"
+                  alt="Иконка пользователя в VR"
+                />
+              </div>
+              <h3>Пользователи VR</h3>
+              <p>
+                Более бережное и персонализированное погружение: виртуальная среда учитывает
+                состояние пользователя и помогает снижать перегрузку
+              </p>
+            </article>
+
+            <article class="audience-card" data-reveal>
+              <div class="icon-shell">
+                <img
+                  src="assets/docx-media/image5.png"
+                  alt="Иконка настройки цифровой платформы"
+                />
+              </div>
+              <h3>Разработчики и исследователи</h3>
+              <p>
+                Инструменты для сбора метрик, потоковой передачи данных и быстрой интеграции
+                с Unreal Engine и Matlab без сложностей
+              </p>
+            </article>
+
+            <article class="audience-card" data-reveal>
+              <div class="icon-shell">
+                <img
+                  src="assets/docx-media/image6.png"
+                  alt="Иконка медицинского применения"
+                />
+              </div>
+              <h3>Медицина и реабилитация</h3>
+              <p>
+                Поддержка клинических и домашних сценариев нейрореабилитации с объективным
+                контролем состояния и понятной визуализацией параметров
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="system" class="section section-dark">
+          <div class="section-heading" data-reveal>
+            <p class="section-tag">Комплекс</p>
+            <h2>Аппаратная часть, аналитика и готовность к интеграции</h2>
+            <p>
+              НейроВР сочетает мобильный нейроинтерфейс с беспроводной передачей данных,
+              программный модуль на Python и интерфейс, который помогает следить за качеством
+              контакта электродов, зарядом батареи и динамикой сигнала в реальном времени.
+            </p>
+          </div>
+
+          <div class="system-layout">
+            <div class="hardware-rail" data-reveal="left">
+              <article class="hardware-card hardware-card--primary">
+                <img
+                  src="assets/docx-media/image8.png"
+                  alt="VR-макет с нейроинтерфейсом"
+                />
+              </article>
+
+              <div class="hardware-grid">
+                <article class="hardware-card">
+                  <img
+                    src="assets/docx-media/image9.jpeg"
+                    alt="Аппаратная часть НейроВиар, вид спереди"
+                  />
+                </article>
+                <article class="hardware-card">
+                  <img
+                    src="assets/docx-media/image10.jpg"
+                    alt="Аппаратная часть НейроВиар, вид сзади"
+                  />
+                </article>
+              </div>
+            </div>
+
+            <div class="system-copy" data-reveal="right">
+              <article class="feature-card">
+                <span class="feature-index">01</span>
+                <div>
+                  <h3>Регистрирует паттерны пользователя</h3>
+                  <p>
+                    Мобильное устройство считывает электрическую активность мозга и передает
+                    данные на компьютер по Bluetooth для анализа в реальном времени.
+                  </p>
+                </div>
+              </article>
+
+              <article class="feature-card">
+                <span class="feature-index">02</span>
+                <div>
+                  <h3>Показывает понятные количественные показатели</h3>
+                  <p>
+                    Интерфейс визуализирует сигналы, помогает контролировать состояние системы
+                    и формирует данные для исследовательских и прикладных задач.
+                  </p>
+                </div>
+              </article>
+
+              <article class="feature-card">
+                <span class="feature-index">03</span>
+                <div>
+                  <h3>Быстро встраивается в существующие VR-сценарии</h3>
+                  <p>
+                    Комплекс интегрируется с Unreal Engine через готовые плагины и может
+                    использоваться в медицине, образовании, играх и пользовательских
+                    исследованиях.
+                  </p>
+                </div>
+              </article>
+
+              <div class="metric-row">
+                <article class="metric-chip">
+                  <strong>Bluetooth</strong>
+                  <span>беспроводная передача данных</span>
+                </article>
+                <article class="metric-chip">
+                  <strong>Python UI</strong>
+                  <span>управление записью и мониторинг системы</span>
+                </article>
+                <article class="metric-chip">
+                  <strong>Unreal Engine</strong>
+                  <span>готовая интеграция с VR-сценами</span>
+                </article>
+                <article class="metric-chip">
+                  <strong>Matlab</strong>
+                  <span>потоковая передача для исследований</span>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery" class="section">
+          <div class="section-heading" data-reveal>
+            <p class="section-tag">Сцены проекта</p>
+            <h2>Виртуальные сцены</h2>
+            <p>
+              Здесь собраны ключевые среды проекта: от мягких иммерсивных сценариев до более
+              насыщенных пространств с высокой когнитивной нагрузкой.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <article class="gallery-card gallery-card--wide" data-reveal>
+              <img
+                src="assets/docx-media/image1.png"
+                alt="Прибрежная сцена виртуальной реальности"
+              />
+              <div class="gallery-copy">
+                <span class="gallery-tag">Сцена 01</span>
+                <h3>Иммерсивная природная среда</h3>
+                <p>Подходит для сценариев восстановления, наблюдения и мягкой адаптации</p>
+              </div>
+            </article>
+
+            <article class="gallery-card" data-reveal>
+              <img
+                src="assets/docx-media/image3.png"
+                alt="Городская сцена виртуальной реальности"
+              />
+              <div class="gallery-copy">
+                <span class="gallery-tag">Сцена 02</span>
+                <h3>Городское окружение</h3>
+                <p>Сценарий для моделирования более сложной когнитивной нагрузки</p>
+              </div>
+            </article>
+
+            <article class="gallery-card" data-reveal>
+              <img
+                src="assets/docx-media/image7.png"
+                alt="Демонстрационная сцена с палатками"
+              />
+              <div class="gallery-copy">
+                <span class="gallery-tag">Сцена 03</span>
+                <h3>Демонстрационный полигон</h3>
+                <p>Среда для показа работы комплекса и тонкой настройки поведения пользователя</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="partners" class="section section-light">
+          <div class="section-heading section-heading--dark" data-reveal>
+            <p class="section-tag section-tag--dark">Партнеры и приоритеты</p>
+            <h2>Проект поддержан институтами развития и соответствует приоритетам РФ</h2>
+          </div>
+
+          <div class="alignment-layout">
+            <div class="support-column" data-reveal="left">
+              <article class="support-card">
+                <p class="support-card__eyebrow">Поддержка проекта</p>
+                <div class="support-card__logo">
+                  <img
+                    src="assets/docx-media/image2.png"
+                    alt="Фонд содействия инновациям"
+                  />
+                </div>
+                <p>
+                  Проект развивается при поддержке ФГБУ «Фонд содействия развитию малых форм
+                  предприятий в научно-технической сфере».
+                </p>
+                <a
+                  class="button button--light"
+                  href="https://fasie.ru/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Перейти на сайт фонда
+                </a>
+              </article>
+
+              <div class="partner-list">
+                <article class="partner-item">
+                  <div class="partner-icon">
+                    <img
+                      src="assets/docx-media/image11.png"
+                      alt="Иконка академического партнера"
+                    />
+                  </div>
+                  <div>
+                    <h3>Пензенский государственный университет</h3>
+                    <p>Академическая и исследовательская база проекта</p>
+                  </div>
+                </article>
+
+                <article class="partner-item">
+                  <div class="partner-icon">
+                    <img
+                      src="assets/docx-media/image12.png"
+                      alt="Иконка институциональной поддержки"
+                    />
+                  </div>
+                  <div>
+                    <h3>Фонд содействия инновациям</h3>
+                    <p>Институциональная поддержка развития и масштабирования решения</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="priority-list" data-reveal="right">
+              <p class="priority-list__caption">
+                Проект сочетает технологическую новизну с прикладной релевантностью для
+                государственных и рыночных направлений развития:
+              </p>
+
+              <article class="priority-item">
+                <img src="assets/docx-media/image13.png" alt="" aria-hidden="true" />
+                <p>
+                  Направлению Стратегии научно-технического развития РФ по переходу к
+                  персонализированной медицине и технологиям здоровьесбережения.
+                </p>
+              </article>
+
+              <article class="priority-item">
+                <img src="assets/docx-media/image14.png" alt="" aria-hidden="true" />
+                <p>Национальным проектам «Наука» и «Здравоохранение»</p>
+              </article>
+
+              <article class="priority-item">
+                <img src="assets/docx-media/image14.png" alt="" aria-hidden="true" />
+                <p>Критическим технологиям НТР РФ: нано-, био-, информационным и когнитивным</p>
+              </article>
+
+              <article class="priority-item">
+                <img src="assets/docx-media/image14.png" alt="" aria-hidden="true" />
+                <p>Рынкам НТИ: Хелснет, Нейронет и Технет</p>
+              </article>
+
+              <article class="priority-item">
+                <img src="assets/docx-media/image14.png" alt="" aria-hidden="true" />
+                <p>
+                  Технологическим задачам и ожидаемым результатам дорожной карты цифровых
+                  технологий виртуальной и дополненной реальности.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section section-contact">
+          <div class="section-heading" data-reveal>
+            <p class="section-tag">Команда</p>
+            <h2>Связаться с НейроВР</h2>
+          </div>
+
+          <div class="team-grid">
+            <article class="team-card" data-reveal>
+              <div class="avatar-shell">
+                <img src="assets/docx-media/image15.png" alt="Аватар Юлии Вячеславовны Аллановой" />
+              </div>
+              <p class="team-card__surname">Алланова</p>
+              <h3>Юлия Вячеславовна</h3>
+            </article>
+
+            <article class="team-card" data-reveal>
+              <div class="avatar-shell">
+                <img src="assets/docx-media/image16.png" alt="Аватар Александра Дмитриевича Иванова" />
+              </div>
+              <p class="team-card__surname">Иванов</p>
+              <h3>Александр Дмитриевич</h3>
+            </article>
+
+            <article class="team-card" data-reveal>
+              <div class="avatar-shell">
+                <img src="assets/docx-media/image17.png" alt="Аватар Дениса Сергеевича Чернышова" />
+              </div>
+              <p class="team-card__surname">Чернышов</p>
+              <h3>Денис Сергеевич</h3>
+            </article>
+          </div>
+
+          <article class="contact-panel" data-reveal>
+            <div>
+              <p class="contact-panel__eyebrow">Обратная связь</p>
+              <h3>Открыты к партнерствам, обсуждениям и презентациям проекта</h3>
+              <p>
+                Если хотите обсудить внедрение, исследовательский трек или развитие
+                программно-аппаратного комплекса, свяжитесь с командой напрямую.
+              </p>
+            </div>
+
+            <div class="contact-links">
+              <a class="button button--primary" href="tel:+79048513187">+7 904 851-31-87</a>
+              <a class="button button--ghost" href="mailto:ula356398@gmail.com">
+                ula356398@gmail.com
+              </a>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
