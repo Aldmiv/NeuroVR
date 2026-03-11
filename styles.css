@@ -567,8 +567,14 @@ ul {
   padding: 16px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 16px;
   background: rgba(8, 18, 31, 0.88);
   border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.device-card__label {
+  border-color: transparent;
 }
 
 .device-card__stack {
@@ -583,13 +589,6 @@ ul {
   object-fit: contain;
   border-radius: 20px;
   background: linear-gradient(180deg, rgba(22, 36, 52, 0.92), rgba(10, 21, 34, 0.92));
-}
-
-.device-card p {
-  margin-top: 14px;
-  color: rgba(245, 247, 251, 0.76);
-  line-height: 1.55;
-  text-align: center;
 }
 
 .grant-pill {
