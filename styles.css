@@ -290,18 +290,19 @@ ul {
 .hero h1,
 .section-heading h2 {
   font-family: "Bahnschrift", "Arial Narrow", sans-serif;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.015em;
   line-height: 0.95;
 }
 
 .hero h1 {
   margin-top: 18px;
-  font-size: clamp(3.4rem, 10vw, 7rem);
+  font-size: clamp(3rem, 8vw, 6rem);
 }
 
 .hero h1 span {
   display: block;
   color: var(--accent-3);
+  font-size: clamp(2.2rem, 5.5vw, 4.4rem);
 }
 
 .hero-lead,
@@ -1191,14 +1192,18 @@ ul {
 
   .hero h1 {
     max-width: 100%;
+    font-size: clamp(2.4rem, 8vw, 3.4rem);
+    line-height: 1.05;
   }
 
   .hero h1 span {
     overflow-wrap: anywhere;
+    font-size: clamp(1.9rem, 7vw, 2.8rem);
   }
 
   .hero-lead {
     max-width: 100%;
+    font-size: 1rem;
   }
 
   .scene-main {
@@ -1259,10 +1264,13 @@ ul {
     padding: 12px;
     gap: 14px;
     border-radius: 24px;
-    background: linear-gradient(180deg, rgba(7, 18, 31, 0.94), rgba(10, 30, 48, 0.96));
+    border: 1px solid rgba(70, 212, 203, 0.28);
+    background:
+      linear-gradient(135deg, rgba(9, 32, 44, 0.9), rgba(26, 86, 100, 0.94)),
+      radial-gradient(circle at 12% 0, rgba(70, 212, 203, 0.22), transparent 60%);
     box-shadow:
-      0 16px 36px rgba(0, 0, 0, 0.18),
-      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+      0 18px 38px rgba(6, 16, 26, 0.32),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
   }
 
   .site-header__bar::before,
@@ -1292,8 +1300,9 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
-    background: rgba(255, 255, 255, 0.025);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(157, 217, 255, 0.16);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
   }
 
   .site-nav a {
@@ -1305,8 +1314,12 @@ ul {
   }
 
   .hero h1 {
-    font-size: clamp(2.3rem, 11.8vw, 3.4rem);
-    line-height: 0.92;
+    font-size: clamp(1.9rem, 8.6vw, 2.6rem);
+    line-height: 1.08;
+  }
+
+  .hero h1 span {
+    font-size: clamp(1.5rem, 7vw, 2.1rem);
   }
 
   .grant-pill img {
@@ -1314,7 +1327,7 @@ ul {
   }
 
   .hero-lead {
-    font-size: 0.98rem;
+    font-size: 0.94rem;
   }
 
   .section-heading h2 {
