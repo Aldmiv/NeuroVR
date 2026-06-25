@@ -648,6 +648,12 @@ ul {
   line-height: 1.25;
 }
 
+.grant-pill__text {
+  display: block;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
 .section-heading {
   max-width: 760px;
   margin-bottom: clamp(30px, 4vw, 46px);
